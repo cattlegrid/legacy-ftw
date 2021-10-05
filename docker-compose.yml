@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+  legacy-ftw:
+    image: rahulthakoor/legacy-ftw
+    restart: always
+    privileged: true
